@@ -1,0 +1,7 @@
+@media (max-width: 576px) {
+  .FOOTER {
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+  }
+}

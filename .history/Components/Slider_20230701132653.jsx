@@ -1,0 +1,24 @@
+// "use client";
+
+// import React from "react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import "swiper/css";
+// import "swiper/css/pagination";
+// import { Pagination } from "swiper";
+
+// const Slider = () => {
+//   return (
+//     <Swiper
+//       pagination={true}
+//       modules={[Pagination]}
+//       className="mySwiper h-[600px] w-[100%] mt-10"
+//     >
+//       <SwiperSlide>Slide 1</SwiperSlide>
+//       <SwiperSlide>Slide 2</SwiperSlide>
+//       <SwiperSlide>Slide 3</SwiperSlide>
+//       <SwiperSlide>Slide 4</SwiperSlide>
+//     </Swiper>
+//   );
+// };
+
+// export default Slider;

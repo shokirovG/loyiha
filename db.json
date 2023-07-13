@@ -1,0 +1,91 @@
+{
+  "users": [
+    {
+      "id": 23423432424,
+      "userName": "Mansur",
+      "email": "abs@abs.com",
+      "password": "1234abs",
+      "goods": [
+        {},
+        {}
+      ],
+      "likes": [
+        {},
+        {}
+      ]
+    },
+    {
+      "id": "5d49661d-66a6-433d-a234-b2d603e7d1c4",
+      "userName": "Ortiq",
+      "password": "1234abs",
+      "email": "ortiq@asdasd.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "5aa772ff-6342-418a-b255-0df6eb523eaa",
+      "userName": "Ikrom",
+      "password": "2335r3454353",
+      "email": "ikrom@asdsad.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "2fda529f-64aa-4c1a-925c-2119bfb52e18",
+      "userName": "Kamron",
+      "password": "ewrwerfewr",
+      "email": "kamron@asdsadsa.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "5f5f99cb-7f82-4652-b7a3-b004e409a6a9",
+      "userName": "Bekjon",
+      "password": "12345678",
+      "email": "qwer@qwer.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "e600193e-6c4b-4b56-8247-0293209a5a17",
+      "userName": "Bekjon",
+      "password": "12345678",
+      "email": "qwer@qwer.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "462b9093-1da1-4625-83f1-932b9ffcb1fc",
+      "userName": "Umid",
+      "password": "12345678",
+      "email": "123@123.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "205c883b-8a31-424b-ab7b-5ecbae8804fa",
+      "userName": "Umid",
+      "password": "12345678",
+      "email": "123@123.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "89bebd03-e6ae-486d-a389-98ac8802effc",
+      "userName": "umid",
+      "password": "12345678",
+      "email": "111@111.com",
+      "goods": [],
+      "likes": []
+    },
+    {
+      "id": "d4f1f9c9-bc21-41d0-802a-445380886a12",
+      "userName": "umid",
+      "password": "12345678",
+      "email": "111@112.com",
+      "goods": [],
+      "likes": []
+    }
+  ],
+  "admins": []
+}

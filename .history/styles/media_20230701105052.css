@@ -1,0 +1,10 @@
+@media (max-width: 576px) {
+  .FOOTER {
+    min-height: 300vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_items {
+    flex-direction: column;
+  }
+}

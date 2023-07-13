@@ -1,0 +1,412 @@
+@import "./Normalize.css";
+@import "./fonts.css";
+@import "./burger.css";
+@import "./media.css" body {
+  font-family: "Inter";
+  background: #f5f5f7;
+}
+.App {
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  /* overflow: hidden; */
+  overflow: hidden;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+  /* padding: 0 40px; */
+}
+.header {
+  /* flex-wrap: wrap; */
+  display: flex;
+  flex-direction: column;
+  margin: 16px auto;
+  align-items: center;
+  background-color: white;
+  border-radius: 12px;
+  padding: 16px 15px;
+}
+
+.nav__items {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__media {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav__item,
+.nav__link_tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.nav__link_tel span {
+  margin-left: 13px;
+}
+.nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1d1d1f;
+  text-decoration: none;
+}
+.nav__link:nth-child(2) {
+  margin-left: 8px;
+}
+.nav__btns {
+  padding-right: 30px;
+  display: flex;
+  align-items: center;
+}
+.nav__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+  background-color: white;
+  border: 1px solid #d2d2d7;
+}
+.nav__btn:nth-child(4) {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 147px;
+  color: #686870;
+}
+.nav__btn:not(first-child) {
+  margin-left: 10px;
+}
+
+.logo__brand {
+  max-width: 214px;
+}
+/* --------------------buttons--hover------------------- */
+
+button:hover {
+  cursor: pointer;
+}
+
+#open_nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.open__imgs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 341px;
+  padding: 5px;
+  border-radius: 12px;
+  height: 102px;
+  background-color: #f5f5f7;
+}
+
+.hover_img {
+  width: 92px;
+  height: 86px;
+}
+
+.hover_img:hover {
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px auto;
+  width: 816px;
+  height: 95px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.category {
+  width: 91px;
+  height: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1d1d1f;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.buli {
+  width: 91px;
+  display: flex;
+  justify-content: center;
+  gap: 11px;
+  align-items: center;
+  height: 100px;
+}
+
+/* ----------------------------swiper-slider------------------------- */
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+  align-items: center;
+  margin-top: 48px;
+  width: 100%;
+  border-radius: 24px;
+  margin-bottom: 50px;
+  height: 686px;
+}
+
+.slider_info {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  background-color: #ffffff;
+  padding-left: 94px;
+  border-bottom-left-radius: 24px;
+  border-top-left-radius: 24px;
+}
+
+.slider_info h1 {
+  margin-top: 100px;
+  width: 565px;
+  height: 328px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 82px;
+  color: #1d1d1f;
+}
+
+.slider_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 8px;
+  width: 311px;
+  background: #00cc2d;
+  border: none;
+  margin-top: 24px;
+  border-radius: 12px;
+  font-family: "Inter";
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.slider_info span {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #686870;
+}
+
+.swiper {
+  width: 55%;
+  height: 100%;
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* categories */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  margin-top: 50px;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.waves-effect {
+  margin-top: 10px;
+}
+
+.card-content p {
+  text-align: left;
+}
+
+.card-title {
+  color: black;
+}
+
+/* loader */
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.loader h1 {
+  color: rgba(255, 255, 255, 0.1);
+  margin: 0;
+  background-color: black;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 10em;
+  background-image: url("https://www.educationsoutheastwater.com.au/img/water.svg");
+  background-repeat: repeat-x;
+  animation: animate 7s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: left 0px top 80px;
+  }
+  40% {
+    background-position: left 800px top -4 0px;
+  }
+  80% {
+    background-position: left 1000px top -50px;
+  }
+  100% {
+    background-position: left 0px top 80px;
+  }
+}
+#inst {
+  margin-top: 10px;
+}
+
+/* footer */
+
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+footer {
+  position: absolute;
+  bottom: -50px;
+  width: 100%;
+}
+
+.card {
+  width: 400px;
+}
+
+.img {
+  width: 100px;
+}
+
+.meals,
+.cards {
+  margin-top: 50px;
+  width: 100%;
+  gap: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn {
+  z-index: 9999999;
+  top: 20px;
+  left: 11px;
+  position: fixed;
+}
+
+.frame {
+  margin-bottom: 50px;
+  border: none;
+}
+
+/* recipe */
+
+.recipe {
+  margin-top: 50px;
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.ingredients {
+  width: 50%;
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.validate {
+  margin-right: 30px;
+}
+/* 
+.navbar {
+  display: flex;
+  justify-content: space-around;  
+  width: 70%;
+} */

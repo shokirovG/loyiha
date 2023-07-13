@@ -1,0 +1,14 @@
+@media (max-width: 576px) {
+  .footer {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_items {
+    display: flex;
+    flex-direction: column;
+  }
+  .others {
+    margin-top: 100px;
+  }
+}
