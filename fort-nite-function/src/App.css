@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+.page-footer {
+  width: 100%;
+}
+.card-action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
+.storeList {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.storeItem {
+  padding: 20px;
+  width: 300px;
+}
+.pcolor {
+  color: rgb(0, 119, 223);
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 30px;
+  top: 100px;
+
+  background-color: rgb(0, 119, 223);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+
+  cursor: pointer;
+}
+.cart:hover {
+  -webkit-box-shadow: inset 0px 3px 36px -4px rgba(66, 68, 90, 1);
+  -moz-box-shadow: inset 0px 3px 36px -4px rgba(66, 68, 90, 1);
+  box-shadow: inset 0px 3px 36px -4px rgba(66, 68, 90, 1);
+}
+.cart-icon {
+  font-size: 50px;
+  color: white;
+}
+.cart span {
+  font-size: 20px;
+}
+.shadow {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+  background-color: #2724249b;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+table {
+  z-index: 999999;
+  background-color: white;
+  width: 80%;
+  /* min-height: auto; */
+  border-radius: 15px;
+  position: fixed;
+  top: 50px;
+}
+.totalPrice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin: 0 auto;
+}
+.check {
+  display: flex;
+  gap: 5px;
+}
