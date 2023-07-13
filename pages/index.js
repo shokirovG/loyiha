@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div className="App">
       <Head>
-        <title>ninja-sushi</title>
+        <title>ninja</title>
       </Head>
       <div className="container p-5">
         <Header />
