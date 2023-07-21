@@ -2,52 +2,54 @@
   margin: 0;
   padding: 0;
 }
-.app {
+
+.home {
+  width: 100vw;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
 }
-
-.sign {
-  padding: 30px 0;
-  width: 30%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 10px;
-}
-.input-field {
-  width: 70%;
-}
-.home {
-  display: flex;
-
+.mealsList {
+  padding: 30px;
   width: 100vw;
-  min-height: 100vh;
-  align-items: center;
-  justify-content: space-between;
-  h1 {
-    width: 100vw;
-
-    text-align: center;
-  }
-}
-.btns {
   display: flex;
-  gap: 15px;
-  position: absolute;
-  top: 10px;
-  right: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: 1px solid red;
+  gap: 30px;
 }
-.sign {
-  position: absolute;
-  left: 35%;
+.mealsItem {
+  width: 250px;
+  margin: 0;
 }
-.shadow {
+.nav-wrapper {
+  width: 100%;
+}
+.mealsImg {
+  width: 300px;
+}
+.card-title {
+  font-weight: bold;
+}
+.categoryItem {
+  width: 250px;
+}
+.categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+}
+.category {
+  padding-top: 70px;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
   position: absolute;
-  width: 100vw;
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.266);
+  left: 20px;
+  top: 80px;
 }
